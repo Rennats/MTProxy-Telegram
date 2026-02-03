@@ -34,23 +34,10 @@ This script is designed to automate installation and resolve compatibility issue
 
 ## Installation Instructions
 
-Run the following commands in the terminal:
+Run this command in the terminal:
 
 ```
-# Download the script
-wget -O install_mtproxy_english.sh https://raw.githubusercontent.com/Internet-Helper/MTProto-MTProxy-Telegram/refs/heads/main/install_mtproxy_english.sh
-
-# Install dos2unix (if not already installed)
-sudo apt update && sudo apt install -y dos2unix
-
-# Fix line endings
-dos2unix install_mtproxy_english.sh
-
-# Grant execution permissions
-chmod +x install_mtproxy_english.sh
-
-# Run the script
-sudo /bin/bash ./install_mtproxy_english.sh
+bash <(curl -Ls https://raw.githubusercontent.com/Internet-Helper/MTProto-MTProxy-Telegram/refs/heads/main/install_mtproxy_russian.sh)
 ```
 
 After updating and installing required packages, the script will prompt you to select external and internal ports:
