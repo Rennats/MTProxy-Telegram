@@ -38,8 +38,7 @@
 
 ## Инструкция по установке
 
-Запустите команду через консоль:
-
+Запустите команды через консоль:
 ```
 # Загрузка скрипта
 wget -O install_mtproxy_russian.sh  https://raw.githubusercontent.com/Rennats/MTProxy-Telegram/refs/heads/main/install_mtproxy_russian.sh
@@ -130,4 +129,5 @@ sudo install_mtproxy_russian.sh delete
 ***
 
 Нравится проект? Поддержи автора через [CloudTips](https://pay.cloudtips.ru/p/8ec8a87c) или [Юмани](https://yoomoney.ru/to/41001945296522) скинув на чашечку кофе ☕ 
+
 
